@@ -59,13 +59,13 @@ function App() {
 
   return (
     <div className='fullpart'>
-      <div className="datepart">
+      <div className="buttonpart">
         <button onClick={() => setShowForm(true)} className='profilebutton'>
           Add Personal Info
         </button>
       </div>
 
-      <div className="backgroundpart">
+      <div className=" backgroundpart">
         <div className="contentcard">
           <h2 className="congratshead">Profile Page</h2>
           <div className="profile">
@@ -75,9 +75,9 @@ function App() {
               className="profile-pic"
             />
             <h4 className="name">{personalInfo.name}</h4>
-            <p className="college">{personalInfo.email}</p>
-            <p>{personalInfo.phone}</p>
-            <p>{personalInfo.location}</p>
+            <p className="useremail">{personalInfo.email}</p>
+            <p className='userphonenumber'>{personalInfo.phone}</p>
+            <p className='userLocation'>{personalInfo.location}</p>
           </div>
 
           <img

@@ -95,7 +95,7 @@ function App() {
               <button type="button" className='profilebutton' onClick={() => setShowForm(false)}>X</button>
             </div>
             <h3 className='textclr'>Add Personal Data</h3>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} id="personalInfoForm">
               <div>
                 <label>Name:</label>
                 <input type="text" name="name" required />

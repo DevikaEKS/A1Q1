@@ -79,8 +79,7 @@ body{
   /* Background styling */
 .backgroundpart {
     background-image: url("./assets/blogcardbg.png");  
-    background-size: cover;
-             
+    background-size: cover;       
      display: flex;           
      justify-content: center; 
      align-items: center;
@@ -126,13 +125,7 @@ body{
     color: #007b8f;
   }
   
-  .college {
-    font-size: 14px;
-    color: #555;
-    margin-top: 5px;
-  }
-  
-  /* Gift image */
+
   .gift-img {
     margin-top: 20px;
     width: 80px;
@@ -162,10 +155,6 @@ body{
   
     .name {
       font-size: 16px;
-    }
-  
-    .college {
-      font-size: 13px;
     }
   
     .gift-img {
